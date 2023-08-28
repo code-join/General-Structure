@@ -1,0 +1,71 @@
+.modal-header {
+	background: rgba(240, 214, 167, 0.5);
+}
+
+.modal-header p {
+  color: rgb(129, 129, 129);
+	font-size: 0.6em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.modal-body {
+	background: rgba(240, 214, 167, 0.5);
+}
+
+.modal-body .wpp {
+	display: flex;
+	flex-direction: column;
+	gap: 34px;
+	padding: 10px;
+	text-align: center;
+}
+
+.modal-body .fa-wpp {
+	color: #128c7e;
+	font-size: 1.4em;
+	margin-right: 10px;
+  transition: transform 0.3s;
+  /* animation: spin-y 3s linear forwards;
+  transform-style: preserve-3d; */
+}
+
+.fa-wpp, #wpp1, #wpp2 {
+  animation: zoom 2s ease-in-out;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* @keyframes spin-y {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+} */
+
+#wpp1,
+#wpp2 {
+	font-size: 1.1em;
+	color: black;
+	text-decoration: none;
+  transition: transform 0.3s;
+}
+
+#wpp1:hover,
+#wpp2:hover,
+.fa-wpp:hover {
+	transform: scale(1.1);
+}

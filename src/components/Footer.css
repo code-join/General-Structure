@@ -1,0 +1,41 @@
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer a {
+	color: rgb(240, 215, 167);
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.footer a:hover {
+	color: black;
+}
+
+@media screen and (max-width: 380px) {
+	.footer {
+		font-size: 0.7em;
+	}
+	.footer a {
+		font-weight: 500;
+	}
+}
+
+@media screen and (min-width: 380px) {
+	.footer {
+		font-size: 0.8em;
+	}
+	.footer a {
+		font-weight: 500;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.footer {
+		font-size: 0.9em;
+	}
+	.footer a {
+		font-weight: 500;
+	}
+}

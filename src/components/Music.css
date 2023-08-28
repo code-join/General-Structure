@@ -1,0 +1,38 @@
+.music {
+	display: flex;
+	justify-content: center;
+}
+
+#player::-webkit-media-controls-panel {
+	background: rgba(41, 41, 41, 0.697);
+	color: white;
+}
+
+@media screen and (max-width: 380px) {
+	.music {
+		margin-top: 10px;
+	}
+	#player {
+		height: 30px;
+		width: 230px;
+	}
+}
+
+@media screen and (min-width: 380px) {
+	.music {
+		margin-top: 15px;
+	}
+	#player {
+		height: 32px;
+		width: 250px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.music {
+		margin-top: 20px;
+	}
+	#player {
+		height: 35px;
+	}
+}

@@ -1,11 +1,11 @@
+// CSS
 import './App.css';
 
+// React Router
+import { Outlet } from 'react-router-dom';
+
 function App() {
-	return (
-		<div class="App">
-			<h1>Itamar Brant</h1>
-		</div>
-	);
+	return <Outlet />;
 }
 
 export default App;
