@@ -11,6 +11,9 @@ import Carousel from 'react-bootstrap/Carousel';
 // Fotos
 import { gallery } from '../assets/data/gallery.js';
 
+// Paths
+import { routes } from '../assets/data/routes.js';
+
 const Gallery = () => {
 	return (
 		<div id="container-gallery">
@@ -24,7 +27,7 @@ const Gallery = () => {
 				</Carousel>
 			</div>
 			<div id="div-voltar">
-				<Link to="/General-Structure/" id="link-voltar">
+				<Link to={`${routes[0].path}`} id="link-voltar">
 					<p>Voltar</p>
 				</Link>
 			</div>
